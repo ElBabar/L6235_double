@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:L6235_double-cache
-LIBS:Libabar
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1358,33 +1357,6 @@ Wire Wire Line
 Text Label 11850 1250 0    60   ~ 0
 +5L
 $Comp
-L CONN_01X04 J2
-U 1 1 59BC3BF8
-P 13800 1650
-F 0 "J2" H 13800 1900 50  0000 C CNN
-F 1 "CONN_01X04" V 13900 1650 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 13800 1650 50  0001 C CNN
-F 3 "" H 13800 1650 50  0001 C CNN
-	1    13800 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13600 1500 13150 1500
-Wire Wire Line
-	13600 1600 13150 1600
-Wire Wire Line
-	13600 1700 13150 1700
-Wire Wire Line
-	13600 1800 13150 1800
-Text Label 13150 1500 0    60   ~ 0
-ENC_L_A
-Text Label 13150 1600 0    60   ~ 0
-ENC_L_B
-Text Label 13150 1700 0    60   ~ 0
-ENC_R_A
-Text Label 13150 1800 0    60   ~ 0
-ENC_R_B
-$Comp
 L PushButton U5
 U 1 1 59BC90FF
 P 13550 2800
@@ -1432,4 +1404,58 @@ Text Label 8650 2450 0    60   ~ 0
 CANH
 Text Label 7800 2450 0    60   ~ 0
 CANL
+$Comp
+L Conn_01x04 J2
+U 1 1 5A7B2434
+P 14700 1600
+F 0 "J2" H 14700 1800 50  0000 C CNN
+F 1 "Conn_01x04" H 14700 1300 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 14700 1600 50  0001 C CNN
+F 3 "" H 14700 1600 50  0001 C CNN
+	1    14700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J3
+U 1 1 5A7B285B
+P 14700 2250
+F 0 "J3" H 14700 2450 50  0000 C CNN
+F 1 "Conn_01x04" H 14700 1950 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 14700 2250 50  0001 C CNN
+F 3 "" H 14700 2250 50  0001 C CNN
+	1    14700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14500 1500 14200 1500
+Wire Wire Line
+	14500 1600 14200 1600
+Wire Wire Line
+	14500 1700 14200 1700
+Wire Wire Line
+	14500 1800 14200 1800
+Wire Wire Line
+	14500 2150 14200 2150
+Wire Wire Line
+	14500 2250 14200 2250
+Wire Wire Line
+	14500 2350 14200 2350
+Wire Wire Line
+	14500 2450 14200 2450
+Text Label 14200 1500 0    60   ~ 0
+ENC_L_A
+Text Label 14200 1600 0    60   ~ 0
+ENC_L_B
+Text Label 14200 2150 0    60   ~ 0
+ENC_R_A
+Text Label 14200 2250 0    60   ~ 0
+ENC_R_B
+Text Label 14200 2450 0    60   ~ 0
++5L
+Text Label 14200 1800 0    60   ~ 0
++5L
+Text Label 14200 2350 0    60   ~ 0
+GNDL
+Text Label 14200 1700 0    60   ~ 0
+GNDL
 $EndSCHEMATC
