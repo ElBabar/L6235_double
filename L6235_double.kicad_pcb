@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
     (links 169)
     (no_connects 0)
-    (area 30.949999 46.949999 141.050001 102.050001)
+    (area 13.864287 30.3 162.85 111.800001)
     (thickness 1.6)
-    (drawings 32)
+    (drawings 43)
     (tracks 753)
     (zones 0)
     (modules 68)
@@ -63,7 +63,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 31 47)
     (grid_origin 31 47)
-    (visible_elements 7FFDFFDF)
+    (visible_elements 7FFCFFFF)
     (pcbplotparams
       (layerselection 0x010fc_80000001)
       (usegerberextensions false)
@@ -273,13 +273,13 @@
     (add_net /PHASE3_2)
   )
 
-  (module Libabar:PushButton (layer F.Cu) (tedit 59BD3A35) (tstamp 59BC07EC)
+  (module Libabar:PushButton (layer F.Cu) (tedit 5A7AFED9) (tstamp 59BC07EC)
     (at 69.115 90.505)
     (path /59BC90FF)
     (fp_text reference U5 (at 1.385 4.995) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value PushButton (at 1.385 4.995) (layer F.Fab)
+    (fp_text value PushButton (at 1.385 4.995) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.54 2.54) (end 5.08 2.54) (layer F.SilkS) (width 0.15))
@@ -296,7 +296,7 @@
       (net 66 /GNDL))
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3B41) (tstamp 593F1509)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B004B) (tstamp 593F1509)
     (at 124.56 80.21 270)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -304,10 +304,10 @@
     (fp_text reference Cboot1 (at 1.25 -2.36 270) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 110n (at 1.29 -2.44 270) (layer F.Fab)
+    (fp_text value 110n (at 1.29 -2.44 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0 270) (layer F.Fab)
+    (fp_text user %R (at 1.25 0 270) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -335,7 +335,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3B0D) (tstamp 593F150F)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7AFFF4) (tstamp 593F150F)
     (at 47.525 72.725 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -343,10 +343,10 @@
     (fp_text reference Cboot1_2 (at 1.725 -2.525 90) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 110n (at 1.225 -2.525 90) (layer F.Fab)
+    (fp_text value 110n (at 1.225 -2.525 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0 90) (layer F.Fab)
+    (fp_text user %R (at 1.25 0 90) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -374,7 +374,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD36E4) (tstamp 593F1515)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B0048) (tstamp 593F1515)
     (at 122.02 80.21 270)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -382,10 +382,10 @@
     (fp_text reference Cboot2 (at 1.79 2.02 270) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 110n (at 1.25 2.36 270) (layer F.Fab)
+    (fp_text value 110n (at 1.25 2.36 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0 270) (layer F.Fab)
+    (fp_text user %R (at 1.25 0 270) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -413,7 +413,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3962) (tstamp 593F151B)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7AFFF7) (tstamp 593F151B)
     (at 50.065 72.725 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -421,10 +421,10 @@
     (fp_text reference Cboot2_2 (at 1.725 2.435 90) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 110n (at 1.25 2.36 90) (layer F.Fab)
+    (fp_text value 110n (at 1.25 2.36 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0 90) (layer F.Fab)
+    (fp_text user %R (at 1.25 0 90) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -452,7 +452,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3B37) (tstamp 593F1521)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B0044) (tstamp 593F1521)
     (at 123.29 90.37 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -460,10 +460,10 @@
     (fp_text reference Clp1 (at 4.79 0.37 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 4.79 -1.13 270) (layer F.Fab)
+    (fp_text value 100n (at 4.79 -1.13 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0 180) (layer F.Fab)
+    (fp_text user %R (at 1.25 0 180) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -491,7 +491,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3AB2) (tstamp 593F1527)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7AFFF1) (tstamp 593F1527)
     (at 48.795 62.565)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -499,10 +499,10 @@
     (fp_text reference Clp2 (at 1.25 -2.36) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 4.705 -1.065 90) (layer F.Fab)
+    (fp_text value 100n (at 4.705 -1.065 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0) (layer F.Fab)
+    (fp_text user %R (at 1.25 0) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -530,7 +530,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3B05) (tstamp 593F152D)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B0034) (tstamp 593F152D)
     (at 102.97 75.13 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -538,10 +538,10 @@
     (fp_text reference Coff1 (at 5.47 0.13 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 4.47 -0.37 180) (layer F.Fab)
+    (fp_text value 1n (at 4.47 -0.37 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0 180) (layer F.Fab)
+    (fp_text user %R (at 1.25 0 180) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -569,7 +569,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3A18) (tstamp 593F1533)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B0024) (tstamp 593F1533)
     (at 69.115 77.805)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -577,10 +577,10 @@
     (fp_text reference Coff1_2 (at 1.385 -1.805) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1n (at 4.385 -0.305) (layer F.Fab)
+    (fp_text value 1n (at 4.385 -0.305) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0) (layer F.Fab)
+    (fp_text user %R (at 1.25 0) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -608,7 +608,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3B55) (tstamp 593F1539)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B0055) (tstamp 593F1539)
     (at 120.75 67.51 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -616,10 +616,10 @@
     (fp_text reference Cp1 (at 1.25 -2.36 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at -2.75 0.01 180) (layer F.Fab)
+    (fp_text value 10n (at -2.75 0.01 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0 180) (layer F.Fab)
+    (fp_text user %R (at 1.25 0 180) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -647,7 +647,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3A70) (tstamp 593F153F)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B0001) (tstamp 593F153F)
     (at 51.335 85.425)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -655,10 +655,10 @@
     (fp_text reference Cp1_2 (at -1.335 -1.925) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at -2.335 -0.425) (layer F.Fab)
+    (fp_text value 10n (at -2.335 -0.425) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0) (layer F.Fab)
+    (fp_text user %R (at 1.25 0) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -686,7 +686,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3B21) (tstamp 593F1545)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B0038) (tstamp 593F1545)
     (at 102.97 85.29 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -694,10 +694,10 @@
     (fp_text reference Cpul1 (at 5.47 -0.21 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 4.97 -0.21 180) (layer F.Fab)
+    (fp_text value 10n (at 4.97 -0.21 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0 180) (layer F.Fab)
+    (fp_text user %R (at 1.25 0 180) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -725,7 +725,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3A0A) (tstamp 593F154B)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B0020) (tstamp 593F154B)
     (at 69.115 67.645)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -733,10 +733,10 @@
     (fp_text reference Cpul1_2 (at 1.25 -2.36) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10n (at 4.885 -0.145) (layer F.Fab)
+    (fp_text value 10n (at 4.885 -0.145) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 1.25 0) (layer F.Fab)
+    (fp_text user %R (at 1.25 0) (layer F.Fab) hide
       (effects (font (size 0.9 0.9) (thickness 0.135)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -764,7 +764,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 59BD3A8F) (tstamp 593F1551)
+  (module Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5A7B0007) (tstamp 593F1551)
     (at 36.73 58.12)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
@@ -772,10 +772,10 @@
     (fp_text reference C_2 (at -1.73 -3.12) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10µ (at -1.73 1.88) (layer F.Fab)
+    (fp_text value 10µ (at -1.73 1.88) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.775 0) (layer F.Fab)
+    (fp_text user %R (at 0.775 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 0) (end -1 0) (layer F.Fab) (width 0.1))
@@ -915,7 +915,7 @@
     )
   )
 
-  (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B44) (tstamp 593F1557)
+  (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7B004E) (tstamp 593F1557)
     (at 127.1 76.4 180)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
@@ -923,10 +923,10 @@
     (fp_text reference D1 (at 7.1 -1.6 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 2.6 2.4 180) (layer F.Fab)
+    (fp_text value 1N4148 (at 2.6 2.4 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 3.81 0 180) (layer F.Fab)
+    (fp_text user %R (at 3.81 0 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.21 -1.35) (end 1.21 1.35) (layer F.Fab) (width 0.1))
@@ -958,7 +958,7 @@
     )
   )
 
-  (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A78) (tstamp 593F155D)
+  (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFFF9) (tstamp 593F155D)
     (at 44.985 76.535)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
@@ -966,10 +966,10 @@
     (fp_text reference D1_2 (at 4.015 -0.035) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 2.515 2.465) (layer F.Fab)
+    (fp_text value 1N4148 (at 2.515 2.465) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 3.81 0) (layer F.Fab)
+    (fp_text user %R (at 3.81 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.21 -1.35) (end 1.21 1.35) (layer F.Fab) (width 0.1))
@@ -1001,7 +1001,7 @@
     )
   )
 
-  (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B48) (tstamp 593F1563)
+  (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7B0051) (tstamp 593F1563)
     (at 120.75 73.86)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
@@ -1009,10 +1009,10 @@
     (fp_text reference D2 (at 3.25 -1.86) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 2.75 2.64) (layer F.Fab)
+    (fp_text value 1N4148 (at 2.75 2.64) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 3.81 0) (layer F.Fab)
+    (fp_text user %R (at 3.81 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.21 -1.35) (end 1.21 1.35) (layer F.Fab) (width 0.1))
@@ -1044,7 +1044,7 @@
     )
   )
 
-  (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A75) (tstamp 593F1569)
+  (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFFFC) (tstamp 593F1569)
     (at 51.335 79.075 180)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
@@ -1052,10 +1052,10 @@
     (fp_text reference D2_2 (at 4.335 0.075 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 2.335 2.575 180) (layer F.Fab)
+    (fp_text value 1N4148 (at 2.335 2.575 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 3.81 0 180) (layer F.Fab)
+    (fp_text user %R (at 3.81 0 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.21 -1.35) (end 1.21 1.35) (layer F.Fab) (width 0.1))
@@ -1087,7 +1087,7 @@
     )
   )
 
-  (module Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight (layer F.Cu) (tedit 59BD3AD3) (tstamp 593F1572)
+  (module Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight (layer F.Cu) (tedit 5A7B0060) (tstamp 593F1572)
     (at 132.815 67.51 270)
     (descr "Connector Headers with Friction Lock, 22-27-2051, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2051")
@@ -1133,7 +1133,7 @@
     (fp_line (start -1.9 -3.55) (end 12.05 -3.55) (layer F.CrtYd) (width 0.05))
     (fp_line (start 12.05 -3.55) (end 12.05 3.5) (layer F.CrtYd) (width 0.05))
     (fp_line (start 12.05 3.5) (end -1.9 3.5) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 5.08 0 270) (layer F.Fab)
+    (fp_text user %R (at 5.08 0 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0 270) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask)
@@ -1153,7 +1153,7 @@
     )
   )
 
-  (module Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight (layer F.Cu) (tedit 59BD3A7F) (tstamp 593F157B)
+  (module Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight (layer F.Cu) (tedit 5A7B0018) (tstamp 593F157B)
     (at 39.27 85.425 90)
     (descr "Connector Headers with Friction Lock, 22-27-2051, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2051")
@@ -1199,7 +1199,7 @@
     (fp_line (start -1.9 -3.55) (end 12.05 -3.55) (layer F.CrtYd) (width 0.05))
     (fp_line (start 12.05 -3.55) (end 12.05 3.5) (layer F.CrtYd) (width 0.05))
     (fp_line (start 12.05 3.5) (end -1.9 3.5) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 5.08 0 90) (layer F.Fab)
+    (fp_text user %R (at 5.08 0 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0 90) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask)
@@ -1219,7 +1219,7 @@
     )
   )
 
-  (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 59BD3ACF) (tstamp 593F1588)
+  (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 5A7B0064) (tstamp 593F1588)
     (at 132.815 80.21 270)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
@@ -1259,7 +1259,7 @@
     (fp_line (start -1.9 -3.55) (end 7 -3.55) (layer F.CrtYd) (width 0.05))
     (fp_line (start 7 -3.55) (end 7 3.5) (layer F.CrtYd) (width 0.05))
     (fp_line (start 7 3.5) (end -1.9 3.5) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 2.54 0 270) (layer F.Fab)
+    (fp_text user %R (at 2.54 0 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0 270) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask)
@@ -1275,7 +1275,7 @@
     )
   )
 
-  (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 59BD3A7B) (tstamp 593F158F)
+  (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 5A7B0013) (tstamp 593F158F)
     (at 39.27 72.725 90)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
@@ -1315,7 +1315,7 @@
     (fp_line (start -1.9 -3.55) (end 7 -3.55) (layer F.CrtYd) (width 0.05))
     (fp_line (start 7 -3.55) (end 7 3.5) (layer F.CrtYd) (width 0.05))
     (fp_line (start 7 3.5) (end -1.9 3.5) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 2.54 0 90) (layer F.Fab)
+    (fp_text user %R (at 2.54 0 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0 90) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask)
@@ -1331,7 +1331,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B18) (tstamp 593F15D7)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCB0) (tstamp 593F15D7)
     (at 105.51 80.21 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1339,7 +1339,7 @@
     (fp_text reference Rdd1 (at 4.01 0.21 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 4.01 0.21 180) (layer F.Fab)
+    (fp_text value 1k (at 4.01 0.21 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1369,7 +1369,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A12) (tstamp 593F15DD)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFD09) (tstamp 593F15DD)
     (at 66.575 72.725)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1377,7 +1377,7 @@
     (fp_text reference Rdd1_2 (at 3.925 -0.225) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 3.925 0.275) (layer F.Fab)
+    (fp_text value 1k (at 3.925 0.275) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1407,7 +1407,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B34) (tstamp 593F15E3)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCCC) (tstamp 593F15E3)
     (at 118.21 87.83)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1415,7 +1415,7 @@
     (fp_text reference Rdd2 (at 3.81 -2.31) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 3.79 -0.33) (layer F.Fab)
+    (fp_text value 1k (at 3.79 -0.33) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1445,7 +1445,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3AA9) (tstamp 593F15E9)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFEF9) (tstamp 593F15E9)
     (at 53.875 65.105 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1453,7 +1453,7 @@
     (fp_text reference Rdd2_2 (at 3.375 -0.395 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 3.875 0.105 180) (layer F.Fab)
+    (fp_text value 1k (at 3.875 0.105 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1483,7 +1483,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B3C) (tstamp 593F15EF)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCC8) (tstamp 593F15EF)
     (at 128.37 87.83 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1491,7 +1491,7 @@
     (fp_text reference Rdiv1 (at 4.17 -3.63 360) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 15k (at 3.67 -0.13 360) (layer F.Fab)
+    (fp_text value 15k (at 3.67 -0.13 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1521,7 +1521,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A92) (tstamp 593F15F5)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFF07) (tstamp 593F15F5)
     (at 43.715 57.485 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1529,7 +1529,7 @@
     (fp_text reference Rdiv2 (at -1.485 -0.285 360) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 15k (at 3.515 0.215 270) (layer F.Fab)
+    (fp_text value 15k (at 3.515 0.215 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1559,7 +1559,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B26) (tstamp 593F15FB)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCBD) (tstamp 593F15FB)
     (at 105.51 90.37 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1567,7 +1567,7 @@
     (fp_text reference Ren1 (at 3.51 -2.13 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 4.01 -0.13 180) (layer F.Fab)
+    (fp_text value 100k (at 4.01 -0.13 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1597,7 +1597,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A07) (tstamp 593F1601)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFD00) (tstamp 593F1601)
     (at 66.575 62.565)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1605,7 +1605,7 @@
     (fp_text reference Ren1_2 (at 3.925 -0.065) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 3.925 -0.065) (layer F.Fab)
+    (fp_text value 100k (at 3.925 -0.065) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1635,7 +1635,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3AF0) (tstamp 593F1607)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFC98) (tstamp 593F1607)
     (at 97.89 62.43)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1643,7 +1643,7 @@
     (fp_text reference RH1 (at 3.61 0.07) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at 3.61 0.07) (layer F.Fab)
+    (fp_text value 10K (at 3.61 0.07) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1673,7 +1673,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A39) (tstamp 593F160D)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFED5) (tstamp 593F160D)
     (at 74.195 90.505 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1681,7 +1681,7 @@
     (fp_text reference RH1_2 (at 3.695 0.005 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at 3.695 0.005 180) (layer F.Fab)
+    (fp_text value 10K (at 3.695 0.005 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1711,7 +1711,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B52) (tstamp 593F1613)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCE0) (tstamp 593F1613)
     (at 125.83 64.97 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1719,7 +1719,7 @@
     (fp_text reference RH2 (at 2.83 -2.03 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at 3.83 -0.03 180) (layer F.Fab)
+    (fp_text value 10K (at 3.83 -0.03 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1749,7 +1749,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A6A) (tstamp 593F1619)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFEDE) (tstamp 593F1619)
     (at 46.255 87.965)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1757,7 +1757,7 @@
     (fp_text reference RH2_2 (at 3.745 0.035) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at 3.745 0.035) (layer F.Fab)
+    (fp_text value 10K (at 3.745 0.035) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1787,7 +1787,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B50) (tstamp 593F161F)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCE3) (tstamp 593F161F)
     (at 125.83 62.43 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1795,7 +1795,7 @@
     (fp_text reference RH3 (at 3.33 1.93 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at 3.83 -0.07 180) (layer F.Fab)
+    (fp_text value 10K (at 3.83 -0.07 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1825,7 +1825,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A6C) (tstamp 593F1625)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFEDC) (tstamp 593F1625)
     (at 46.255 90.505)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1833,7 +1833,7 @@
     (fp_text reference RH3_2 (at 3.745 -0.005) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at 3.745 -0.005) (layer F.Fab)
+    (fp_text value 10K (at 3.745 -0.005) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1863,7 +1863,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B2B) (tstamp 593F162B)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCC2) (tstamp 593F162B)
     (at 108.05 94.18)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1871,7 +1871,7 @@
     (fp_text reference Rlp1 (at 3.95 2.32) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 56k (at 3.95 -0.18) (layer F.Fab)
+    (fp_text value 56k (at 3.95 -0.18) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1901,7 +1901,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A05) (tstamp 593F1631)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFEFE) (tstamp 593F1631)
     (at 63.9 59.7 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1909,7 +1909,7 @@
     (fp_text reference Rlp2 (at 3.9 0.2 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 56k (at 3.9 0.2 180) (layer F.Fab)
+    (fp_text value 56k (at 3.9 0.2 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1939,7 +1939,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B02) (tstamp 593F1637)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCA9) (tstamp 593F1637)
     (at 105.51 72.59 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1947,7 +1947,7 @@
     (fp_text reference Roff1 (at 3.51 0.09 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33k (at 4.01 0.09 180) (layer F.Fab)
+    (fp_text value 33k (at 4.01 0.09 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -1977,7 +1977,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A1F) (tstamp 593F163D)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFD0E) (tstamp 593F163D)
     (at 66.575 80.345)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1985,7 +1985,7 @@
     (fp_text reference Roff1_2 (at 3.925 -0.345) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 33k (at 3.925 0.155) (layer F.Fab)
+    (fp_text value 33k (at 3.925 0.155) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2015,7 +2015,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B62) (tstamp 593F1643)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCDD) (tstamp 593F1643)
     (at 128.37 70.05 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2023,7 +2023,7 @@
     (fp_text reference Rp1 (at 6.55 2.63 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 3.05 -0.37 180) (layer F.Fab)
+    (fp_text value 100 (at 3.05 -0.37 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2053,7 +2053,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A61) (tstamp 593F1649)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFEE4) (tstamp 593F1649)
     (at 43.715 82.885 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2061,7 +2061,7 @@
     (fp_text reference Rp1_2 (at 6.115 3.715 360) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100 (at 4.115 0.215 270) (layer F.Fab)
+    (fp_text value 100 (at 4.115 0.215 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2091,7 +2091,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3B1E) (tstamp 593F164F)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCB5) (tstamp 593F164F)
     (at 105.51 82.75 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2099,7 +2099,7 @@
     (fp_text reference Rpul1 (at 4.01 -0.25 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 47k (at 4.01 0.25 180) (layer F.Fab)
+    (fp_text value 47k (at 4.01 0.25 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2129,7 +2129,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A0D) (tstamp 593F1655)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFD06) (tstamp 593F1655)
     (at 66.575 70.185)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2137,7 +2137,7 @@
     (fp_text reference Rpul1_2 (at 3.925 -0.185) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 47k (at 3.925 0.315) (layer F.Fab)
+    (fp_text value 47k (at 3.925 0.315) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2167,7 +2167,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3AFD) (tstamp 593F165B)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCA1) (tstamp 593F165B)
     (at 97.89 70.05)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2175,7 +2175,7 @@
     (fp_text reference Rsense1 (at 3.61 -0.05) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1 (at 3.61 -0.05) (layer F.Fab)
+    (fp_text value 1 (at 3.61 -0.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2205,7 +2205,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A3F) (tstamp 593F1661)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFD11) (tstamp 593F1661)
     (at 74.195 82.885 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2213,7 +2213,7 @@
     (fp_text reference Rsense1_2 (at 3.695 -0.115 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1 (at 3.695 -0.115 180) (layer F.Fab)
+    (fp_text value 1 (at 3.695 -0.115 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2243,7 +2243,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3AF9) (tstamp 593F1667)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFC9F) (tstamp 593F1667)
     (at 97.89 67.51)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2251,7 +2251,7 @@
     (fp_text reference Rsense2 (at 3.61 -0.01) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1 (at 3.61 -0.01) (layer F.Fab)
+    (fp_text value 1 (at 3.61 -0.01) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2281,7 +2281,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A41) (tstamp 593F166D)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFED0) (tstamp 593F166D)
     (at 74.195 85.425 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2289,7 +2289,7 @@
     (fp_text reference Rsense2_2 (at 3.695 -0.075 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1 (at 3.695 -0.075 180) (layer F.Fab)
+    (fp_text value 1 (at 3.695 -0.075 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2319,7 +2319,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3AF6) (tstamp 593F1673)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCA6) (tstamp 593F1673)
     (at 97.89 64.97)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2327,7 +2327,7 @@
     (fp_text reference Rsense3 (at 3.61 0.03) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1 (at 3.61 0.03) (layer F.Fab)
+    (fp_text value 1 (at 3.61 0.03) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2357,7 +2357,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A3B) (tstamp 593F1679)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFED3) (tstamp 593F1679)
     (at 74.195 87.965 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -2365,7 +2365,7 @@
     (fp_text reference Rsense3_2 (at 3.695 -0.035 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1 (at 3.695 -0.035 180) (layer F.Fab)
+    (fp_text value 1 (at 3.695 -0.035 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -2395,7 +2395,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 59BD3AE5) (tstamp 593F1AA6)
+  (module Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5A7B002C) (tstamp 593F1AA6)
     (at 98.96 55.58 270)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
@@ -2403,10 +2403,10 @@
     (fp_text reference C1 (at -3.08 -0.04 360) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10µ (at -2.08 2.96 360) (layer F.Fab)
+    (fp_text value 10µ (at -2.08 2.96 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0.775 0 270) (layer F.Fab)
+    (fp_text user %R (at 0.775 0 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 0) (end -1 0) (layer F.Fab) (width 0.1))
@@ -2546,7 +2546,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59BD3ADC) (tstamp 593FFA66)
+  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 5A7B003E) (tstamp 593FFA66)
     (at 120.75 95.45 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
@@ -2571,7 +2571,7 @@
     (fp_line (start -1.8 4.35) (end 1.8 4.35) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 4.35) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 -2.33 180) (layer F.Fab)
+    (fp_text user %R (at 0 -2.33 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
@@ -2585,7 +2585,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59BD3AD9) (tstamp 593FFA6C)
+  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 5A7B0040) (tstamp 593FFA6C)
     (at 123.29 95.45 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
@@ -2610,7 +2610,7 @@
     (fp_line (start -1.8 4.35) (end 1.8 4.35) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 4.35) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 -2.33 180) (layer F.Fab)
+    (fp_text user %R (at 0 -2.33 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
@@ -2624,7 +2624,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59BD3A95) (tstamp 593FFA72)
+  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 5A7B000F) (tstamp 593FFA72)
     (at 51.335 57.485)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
@@ -2649,7 +2649,7 @@
     (fp_line (start -1.8 4.35) (end 1.8 4.35) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 4.35) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 -2.33) (layer F.Fab)
+    (fp_text user %R (at 0 -2.33) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
@@ -2663,7 +2663,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59BD3A9A) (tstamp 593FFA78)
+  (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 5A7B000D) (tstamp 593FFA78)
     (at 48.795 57.485)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
@@ -2688,7 +2688,7 @@
     (fp_line (start -1.8 4.35) (end 1.8 4.35) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 4.35) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 -2.33) (layer F.Fab)
+    (fp_text user %R (at 0 -2.33) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
@@ -2702,7 +2702,7 @@
     )
   )
 
-  (module .pretty:PDIP-24 (layer F.Cu) (tedit 59BD39A5) (tstamp 594003E6)
+  (module .pretty:PDIP-24 (layer F.Cu) (tedit 5A7AFEEE) (tstamp 594003E6)
     (at 60.225 76.535 90)
     (descr "PDIP-24 Narrow 300mil 24pin Dual In Line Package")
     (tags "Power Integrations P Package")
@@ -2710,7 +2710,7 @@
     (fp_text reference U2 (at 0.535 0.275 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value L6235N (at 0 0 90) (layer F.Fab)
+    (fp_text value L6235N (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -12.573 -3.175) (end -12.827 -3.175) (layer F.SilkS) (width 0.15))
@@ -2795,7 +2795,7 @@
       (net 59 /+12V2))
   )
 
-  (module .pretty:PDIP-24 (layer F.Cu) (tedit 59BD37E0) (tstamp 5940077F)
+  (module .pretty:PDIP-24 (layer F.Cu) (tedit 5A7AFCE6) (tstamp 5940077F)
     (at 111.86 76.4 270)
     (descr "PDIP-24 Narrow 300mil 24pin Dual In Line Package")
     (tags "Power Integrations P Package")
@@ -2803,7 +2803,7 @@
     (fp_text reference U1 (at 0.1 -0.14 360) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value L6235N (at 0 0 270) (layer F.Fab)
+    (fp_text value L6235N (at 0 0 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -12.573 -3.175) (end -12.827 -3.175) (layer F.SilkS) (width 0.15))
@@ -2888,13 +2888,13 @@
       (net 57 /+12V1))
   )
 
-  (module Libabar:Nano_STM (layer F.Cu) (tedit 59BD3A51) (tstamp 597DCE76)
+  (module Libabar:Nano_STM (layer F.Cu) (tedit 5A7AFCF7) (tstamp 597DCE76)
     (at 85.9 75.2 180)
     (path /597DE43D)
     (fp_text reference U3 (at -0.1 5.2 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Nucleo (at -0.1 4.2 180) (layer F.Fab)
+    (fp_text value Nucleo (at -0.1 4.2 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 20) (end -1 21) (layer F.SilkS) (width 0.15))
@@ -3053,7 +3053,7 @@
       (net 72 "Net-(J1-Pad31)"))
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3AE9) (tstamp 59B52F8E)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B002F) (tstamp 59B52F8E)
     (at 104.04 55.58 270)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -3061,7 +3061,7 @@
     (fp_text reference C2 (at -2.08 0.04 360) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at -2.08 0.54 360) (layer F.Fab)
+    (fp_text value 100n (at -2.08 0.54 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -3078,7 +3078,7 @@
     (fp_line (start -1.05 1.65) (end 3.55 1.65) (layer F.CrtYd) (width 0.05))
     (fp_line (start 3.55 1.65) (end 3.55 -1.65) (layer F.CrtYd) (width 0.05))
     (fp_line (start 3.55 -1.65) (end -1.05 -1.65) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 1.27 0 450) (layer F.Fab)
+    (fp_text user %R (at 1.27 0 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
@@ -3092,7 +3092,7 @@
     )
   )
 
-  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 59BD3A8A) (tstamp 59B52F94)
+  (module Capacitors_ThroughHole:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A7B000B) (tstamp 59B52F94)
     (at 35.46 63.2)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -3100,7 +3100,7 @@
     (fp_text reference C2_2 (at -0.96 -2.2) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 1.04 1.8) (layer F.Fab)
+    (fp_text value 100n (at 1.04 1.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -3117,7 +3117,7 @@
     (fp_line (start -1.05 1.65) (end 3.55 1.65) (layer F.CrtYd) (width 0.05))
     (fp_line (start 3.55 1.65) (end 3.55 -1.65) (layer F.CrtYd) (width 0.05))
     (fp_line (start 3.55 -1.65) (end -1.05 -1.65) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 1.25 0) (layer F.Fab)
+    (fp_text user %R (at 1.25 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
@@ -3131,7 +3131,7 @@
     )
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A58) (tstamp 59BA9DD7)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCF0) (tstamp 59BA9DD7)
     (at 82.1 92.3)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -3139,7 +3139,7 @@
     (fp_text reference Rdiv3 (at 3.9 -0.3) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 15k (at 3.9 0.2) (layer F.Fab)
+    (fp_text value 15k (at 3.9 0.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -3169,7 +3169,7 @@
     )
   )
 
-  (module Power_Integrations:PDIP-8 (layer F.Cu) (tedit 59BD37FA) (tstamp 59BA9DE3)
+  (module Power_Integrations:PDIP-8 (layer F.Cu) (tedit 5A7AFCF2) (tstamp 59BA9DE3)
     (at 85.9 85.7 90)
     (descr "PDIP-8 Standard 300mil 8pin Dual In Line Package")
     (tags "Power Integrations P Package")
@@ -3177,7 +3177,7 @@
     (fp_text reference U4 (at 0.7 0.1 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP2551 (at 0 0 90) (layer F.Fab)
+    (fp_text value MCP2551 (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.08 0.889) (end -5.08 3.302) (layer F.SilkS) (width 0.15))
@@ -3214,7 +3214,7 @@
       (net 73 "Net-(Rdiv3-Pad2)"))
   )
 
-  (module Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight (layer F.Cu) (tedit 59BD3ACB) (tstamp 59BC04EB)
+  (module Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight (layer F.Cu) (tedit 5A7B005A) (tstamp 59BC04EB)
     (at 116.105 53.04)
     (descr "Connector Headers with Friction Lock, 22-27-2041, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2041")
@@ -3257,7 +3257,7 @@
     (fp_line (start -1.9 -3.55) (end 9.5 -3.55) (layer F.CrtYd) (width 0.05))
     (fp_line (start 9.5 -3.55) (end 9.5 3.5) (layer F.CrtYd) (width 0.05))
     (fp_line (start 9.5 3.5) (end -1.9 3.5) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 3.81 0) (layer F.Fab)
+    (fp_text user %R (at 3.81 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at 0 0) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask)
@@ -6715,7 +6715,7 @@
       (xy 19.951661 7.174925)) (layer B.SilkS) (width 0.01))
   )
 
-  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 59BD3A02) (tstamp 59BD3D0B)
+  (module Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A7AFCFD) (tstamp 59BD3D0B)
     (at 74.1 57.2 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -6723,7 +6723,7 @@
     (fp_text reference RCAN1 (at 3.6 0.2 180) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 120 (at 3.6 0.2 180) (layer F.Fab)
+    (fp_text value 120 (at 3.6 0.2 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.66 -1.25) (end 0.66 1.25) (layer F.Fab) (width 0.1))
@@ -7000,6 +7000,19 @@
       (xy -2.111953 0.137912) (xy -1.959335 0.108565) (xy -1.922191 0.105138) (xy -1.780903 0.105428)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text "CAN-ID :" (at 86 99) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_line (start 115 98) (end 115 101) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 96 98) (end 96 101) (angle 90) (layer F.SilkS) (width 3))
+  (gr_line (start 100 98) (end 100 101) (angle 90) (layer F.SilkS) (width 3))
+  (gr_line (start 104 98) (end 104 101) (angle 90) (layer F.SilkS) (width 3))
+  (gr_line (start 108 98) (end 108 101) (angle 90) (layer F.SilkS) (width 3))
+  (gr_line (start 112 98) (end 112 101) (angle 90) (layer F.SilkS) (width 3))
+  (gr_line (start 118 98) (end 118 101) (angle 90) (layer F.SilkS) (width 3))
+  (gr_line (start 122 98) (end 122 101) (angle 90) (layer F.SilkS) (width 3))
+  (gr_line (start 126 98) (end 126 101) (angle 90) (layer F.SilkS) (width 3))
+  (gr_line (start 130 98) (end 130 101) (angle 90) (layer F.SilkS) (width 3))
   (gr_line (start 49.022 60.198) (end 46.228 60.198) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 49.022 57.15) (end 46.228 57.15) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 53.848 58.674) (end 55.88 58.674) (angle 90) (layer F.SilkS) (width 0.2))
