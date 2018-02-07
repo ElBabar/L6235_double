@@ -3,7 +3,7 @@
   (general
     (links 173)
     (no_connects 0)
-    (area 30.949999 46.949999 141.050001 102.050001)
+    (area 13.864287 30.3 162.85 111.800001)
     (thickness 1.6)
     (drawings 43)
     (tracks 808)
@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory exportSeeed/))
+      (outputdirectory export/))
   )
 
   (net 0 "")
